@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Jetbrains
+.idea
+.code-workspace
+.cache/
+dist/
+coverage/
+# NodeJS / Yarn
+/node_modules
+.yarn
+package-lock.json
+yarn-error.log
+
+# OS X
+.DS_Store
+
+#Photoshop files
+.pxm
+
+# ReactJS
+build/
+
+# Local target for files built on docker
+docker/
+
+# Firebase
+# /src/firebase
+
+# dev files
+resources/
+.env
+
+# testing
+newrelic_agent.log
